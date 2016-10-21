@@ -1,0 +1,24 @@
+[Kroot@compy:~/Desktop/mininetTesting# asdofij[D[K[D[K[D[K[D[K[D[K[D[K[D[Kls
+practice.py  practice.py~  Xterm.log.compy.2016.10.12.12.36.20.6391
+root@compy:~/Desktop/mininetTesting# ping
+ping: missing host operand
+Try 'ping --help' or 'ping --usage' for more information.
+root@compy:~/Desktop/mininetTesting# ping h1
+ping: unknown host
+root@compy:~/Desktop/mininetTesting# ping [D[Kall
+No command 'pingall' found, did you mean:
+ Command 'pinball' from package 'pinball' (universe)
+pingall: command not found
+root@compy:~/Desktop/mininetTesting# ping 10.00[D[K.0.1
+PING 10.0.0.1 (10.0.0.1): 56 data bytes
+64 bytes from 10.0.0.1: icmp_seq=0 ttl=64 time=0.342 ms
+64 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=0.095 ms
+64 bytes from 10.0.0.1: icmp_seq=2 ttl=64 time=0.107 ms
+64 bytes from 10.0.0.1: icmp_seq=3 ttl=64 time=0.095 ms
+^C--- 10.0.0.1 ping statistics ---
+4 packets transmitted, 4 packets received, 0% packet loss
+round-trip min/avg/max/stddev = 0.095/0.160/0.342/0.105 ms
+root@compy:~/Desktop/mininetTesting# py
+py: command not found
+root@compy:~/Desktop/mininetTesting# exit
+exit

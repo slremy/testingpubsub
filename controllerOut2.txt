@@ -1,0 +1,2 @@
+Logging data to mqtt_bar_n2oEast_kodiaodsfijng_new.txt
+('Device connection failed', 'Error thrown: [Errno 101] Network is unreachable\n')
