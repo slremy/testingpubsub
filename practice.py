@@ -31,11 +31,16 @@ def myNet(net, sampleInterval = '.1', directory = 'ballplate/'):
     #from datetime import datetime
     #dt = datetime.now()
     #t = dt.strftime('%b-%d-%H:%M.%S')
-    #import subprocess
-    #subprocess.call(['mkdir',t])
+    import subprocess
+    i = 1;
+    t = "trial" + str(i)
+    while t in subprocess.call("ls"):
+        i += 1;
+        t = "trial" + str(i);
+    subprocess.call(['mkdir',t])
     #start tcp dump on all servers in a file with the time
-#    for i in range(0, len(servers)):
-#        servers[i][1].cmd('tcpdump -w ' + t + '/' + servers[i][0] +  '.pcap &')
+    for i in range(0, len(servers)):
+        servers[i][1].cmd('tcpdump -w ' + t + '/' + servers[i][0] +  '.pcap &')
 
 
     brokerLoc = '10.0.0.1'
@@ -44,7 +49,7 @@ def myNet(net, sampleInterval = '.1', directory = 'ballplate/'):
 
     brokersRunning = 'mosquitto -p 9883 > ' + 'mosquittoOutput.txt '
     plantsRunning = 'python nlmodel_mqtt.py ' + brokerLoc + ' 9883 uisgroup/control_action__1__1uisgroup/plant_state__1' 
-    controllersRunning = 'python nlcontroller.py mqtt bar ' + brokerLoc + ' 9883 n2oEast_kodiaodsfijng_new 20 ' + sampleInterval + ' 6.09 3.5 -5.18 -12.08 6.58 -0.4 > controllerOut.txt'
+    controllersRunning = 'python nlcontroller.py mqtt bar ' + brokerLoc + ' 9883 n2oEast_kodiaodsfijng_new 20 ' + sampleInterval + ' 6.09 3.5 -5.18 -12.08 6.58 -0.4 > ' + t +'controllerOut.txt'
 
     print("done, " + controllersRunning)
 
