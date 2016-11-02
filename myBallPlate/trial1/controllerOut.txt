@@ -1,0 +1,1012 @@
+Logging data to mqtt_bar_n2oEast_kodiaodsfijng_new.txt
+connected 10.0.0.1 9883
+Importing process from mqttclient
+Host: 10.0.0.1:9883/
+Sending PUBLISH (dFalse, q1, r0, m1, 'uisgroup/control_action', ... (13 bytes)
+Received CONNACK (0, 0)
+Subscribing
+rc: 0
+Sending PUBLISH (dFalse, q1, r0, m3, 'uisgroup/control_action', ... (60 bytes)
+Communication timed out!  0.100722074509
+ <--- this is why it failed
+Received PUBACK (Mid: 1)
+Received SUBACK
+Subscribed: 2 (1,)
+Sending PUBLISH (dFalse, q1, r0, m4, 'uisgroup/control_action', ... (60 bytes)
+Communication timed out!  0.20134806633
+ <--- this is why it failed
+Received PUBACK (Mid: 3)
+Received PUBLISH (d0, q1, r0, m1, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 1)
+uisgroup/plant_state 1 [0.0000 0.0000 0.0000 0.0000 0.100398]
+Sending PUBLISH (dFalse, q1, r0, m5, 'uisgroup/control_action', ... (60 bytes)
+Received PUBACK (Mid: 4)
+Received PUBLISH (d0, q1, r0, m2, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 2)
+uisgroup/plant_state 1 [0.0000 0.0000 0.0000 0.0000 0.201067]
+Sending PUBLISH (dFalse, q1, r0, m6, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 5)
+Received PUBLISH (d0, q1, r0, m3, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 3)
+uisgroup/plant_state 1 [0.0000 0.0000 0.0000 0.0000 0.300773]
+Sending PUBLISH (dFalse, q1, r0, m7, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 6)
+Received PUBLISH (d0, q1, r0, m4, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 4)
+uisgroup/plant_state 1 [0.0000 0.0000 0.0000 0.0000 0.400906]
+Sending PUBLISH (dFalse, q1, r0, m8, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 7)
+Received PUBLISH (d0, q1, r0, m5, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 5)
+uisgroup/plant_state 1 [0.0024 0.0024 -0.9071 -0.9071 0.501552]
+Sending PUBLISH (dFalse, q1, r0, m9, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 8)
+Received PUBLISH (d0, q1, r0, m6, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 6)
+uisgroup/plant_state 1 [0.0087 0.0087 -0.9071 -0.9071 0.601046]
+Sending PUBLISH (dFalse, q1, r0, m10, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 9)
+Received PUBLISH (d0, q1, r0, m7, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 7)
+uisgroup/plant_state 1 [0.0190 0.0190 -0.9071 -0.9071 0.700549]
+Sending PUBLISH (dFalse, q1, r0, m11, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 10)
+Received PUBLISH (d0, q1, r0, m8, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 8)
+uisgroup/plant_state 1 [0.0333 0.0333 -0.9071 -0.9071 0.801054]
+Sending PUBLISH (dFalse, q1, r0, m12, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 11)
+Received PUBLISH (d0, q1, r0, m9, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 9)
+uisgroup/plant_state 1 [0.0516 0.0516 -0.9071 -0.9071 0.900769]
+Sending PUBLISH (dFalse, q1, r0, m13, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 12)
+Received PUBLISH (d0, q1, r0, m10, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 10)
+uisgroup/plant_state 1 [0.0738 0.0738 -0.9071 -0.9071 1.000551]
+Sending PUBLISH (dFalse, q1, r0, m14, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 13)
+Received PUBLISH (d0, q1, r0, m11, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 11)
+uisgroup/plant_state 1 [0.1000 0.0990 -0.9071 -0.9071 1.100692]
+Sending PUBLISH (dFalse, q1, r0, m15, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 14)
+Received PUBLISH (d0, q1, r0, m12, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 12)
+uisgroup/plant_state 1 [0.1302 0.1233 -0.9071 0.7114 1.200379]
+Sending PUBLISH (dFalse, q1, r0, m16, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 15)
+Received PUBLISH (d0, q1, r0, m13, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 13)
+uisgroup/plant_state 1 [0.1643 0.1438 -0.9071 0.9071 1.300394]
+Sending PUBLISH (dFalse, q1, r0, m17, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 16)
+Received PUBLISH (d0, q1, r0, m14, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 14)
+uisgroup/plant_state 1 [0.2024 0.1604 -0.9071 0.9071 1.400541]
+Sending PUBLISH (dFalse, q1, r0, m18, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 17)
+Received PUBLISH (d0, q1, r0, m15, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 15)
+uisgroup/plant_state 1 [0.2427 0.1730 -0.9071 0.9071 1.500653]
+Sending PUBLISH (dFalse, q1, r0, m19, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 18)
+Received PUBLISH (d0, q1, r0, m16, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 16)
+uisgroup/plant_state 1 [0.2817 0.1817 0.9071 0.9071 1.600452]
+Sending PUBLISH (dFalse, q1, r0, m20, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 19)
+Received PUBLISH (d0, q1, r0, m17, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 17)
+uisgroup/plant_state 1 [0.3167 0.1863 0.9071 0.9071 1.700944]
+Sending PUBLISH (dFalse, q1, r0, m21, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 20)
+Received PUBLISH (d0, q1, r0, m18, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 18)
+uisgroup/plant_state 1 [0.3477 0.1870 0.9071 0.9071 1.800710]
+Sending PUBLISH (dFalse, q1, r0, m22, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 21)
+Received PUBLISH (d0, q1, r0, m19, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 19)
+uisgroup/plant_state 1 [0.3748 0.1838 0.9071 0.9071 1.901327]
+Sending PUBLISH (dFalse, q1, r0, m23, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 22)
+Received PUBLISH (d0, q1, r0, m20, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 20)
+uisgroup/plant_state 1 [0.3979 0.1765 0.9071 0.9071 2.000973]
+Sending PUBLISH (dFalse, q1, r0, m24, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 23)
+Received PUBLISH (d0, q1, r0, m21, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 21)
+uisgroup/plant_state 1 [0.4170 0.1688 0.9071 0.7533 2.100516]
+Sending PUBLISH (dFalse, q1, r0, m25, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 24)
+Received PUBLISH (d0, q1, r0, m22, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 22)
+uisgroup/plant_state 1 [0.4321 0.1634 0.9071 -0.9071 2.200423]
+Sending PUBLISH (dFalse, q1, r0, m26, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 25)
+Received PUBLISH (d0, q1, r0, m23, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 23)
+uisgroup/plant_state 1 [0.4433 0.1620 0.9071 -0.9071 2.301551]
+Sending PUBLISH (dFalse, q1, r0, m27, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 26)
+Received PUBLISH (d0, q1, r0, m24, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 24)
+uisgroup/plant_state 1 [0.4505 0.1646 0.9071 -0.9071 2.401228]
+Sending PUBLISH (dFalse, q1, r0, m28, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 27)
+Received PUBLISH (d0, q1, r0, m25, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 25)
+uisgroup/plant_state 1 [0.4538 0.1711 0.9071 -0.9071 2.500882]
+Sending PUBLISH (dFalse, q1, r0, m29, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 28)
+Received PUBLISH (d0, q1, r0, m26, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 26)
+uisgroup/plant_state 1 [0.4575 0.1816 -0.5159 -0.9071 2.600495]
+Sending PUBLISH (dFalse, q1, r0, m30, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 29)
+Received PUBLISH (d0, q1, r0, m27, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 27)
+uisgroup/plant_state 1 [0.4648 0.1960 -0.9071 -0.9071 2.700740]
+Sending PUBLISH (dFalse, q1, r0, m31, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 30)
+Received PUBLISH (d0, q1, r0, m28, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 28)
+uisgroup/plant_state 1 [0.4761 0.2145 -0.9071 -0.9071 2.800533]
+Sending PUBLISH (dFalse, q1, r0, m32, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 31)
+Received PUBLISH (d0, q1, r0, m29, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 29)
+uisgroup/plant_state 1 [0.4914 0.2369 -0.9071 -0.9071 2.901043]
+Sending PUBLISH (dFalse, q1, r0, m33, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 32)
+Received PUBLISH (d0, q1, r0, m30, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 30)
+uisgroup/plant_state 1 [0.5106 0.2632 -0.9071 -0.9071 3.000721]
+Sending PUBLISH (dFalse, q1, r0, m34, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 33)
+Received PUBLISH (d0, q1, r0, m31, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 31)
+uisgroup/plant_state 1 [0.5338 0.2936 -0.9071 -0.9071 3.100912]
+Sending PUBLISH (dFalse, q1, r0, m35, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 34)
+Received PUBLISH (d0, q1, r0, m32, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 32)
+uisgroup/plant_state 1 [0.5610 0.3254 -0.9071 -0.9071 3.201110]
+Sending PUBLISH (dFalse, q1, r0, m36, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 35)
+Received PUBLISH (d0, q1, r0, m33, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 33)
+uisgroup/plant_state 1 [0.5921 0.3554 -0.9071 0.9071 3.300419]
+Sending PUBLISH (dFalse, q1, r0, m37, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 36)
+Received PUBLISH (d0, q1, r0, m34, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 34)
+uisgroup/plant_state 1 [0.6272 0.3814 -0.9071 0.9071 3.400938]
+Sending PUBLISH (dFalse, q1, r0, m38, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 37)
+Received PUBLISH (d0, q1, r0, m35, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 35)
+uisgroup/plant_state 1 [0.6663 0.4034 -0.9071 0.9071 3.501188]
+Sending PUBLISH (dFalse, q1, r0, m39, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 38)
+Received PUBLISH (d0, q1, r0, m36, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 36)
+uisgroup/plant_state 1 [0.7094 0.4215 -0.9071 0.9071 3.600471]
+Sending PUBLISH (dFalse, q1, r0, m40, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 39)
+Received PUBLISH (d0, q1, r0, m37, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 37)
+uisgroup/plant_state 1 [0.7520 0.4356 0.3750 0.9071 3.700682]
+Sending PUBLISH (dFalse, q1, r0, m41, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 40)
+Received PUBLISH (d0, q1, r0, m38, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 38)
+uisgroup/plant_state 1 [0.7912 0.4458 0.9071 0.9071 3.800491]
+Sending PUBLISH (dFalse, q1, r0, m42, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 41)
+Received PUBLISH (d0, q1, r0, m39, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 39)
+uisgroup/plant_state 1 [0.8265 0.4520 0.9071 0.9071 3.900521]
+Sending PUBLISH (dFalse, q1, r0, m43, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 42)
+Received PUBLISH (d0, q1, r0, m40, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 40)
+uisgroup/plant_state 1 [0.8578 0.4542 0.9071 0.9071 4.000635]
+Sending PUBLISH (dFalse, q1, r0, m44, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 43)
+Received PUBLISH (d0, q1, r0, m41, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 41)
+uisgroup/plant_state 1 [0.8851 0.4524 0.9071 0.9071 4.100435]
+Sending PUBLISH (dFalse, q1, r0, m45, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 44)
+Received PUBLISH (d0, q1, r0, m42, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 42)
+uisgroup/plant_state 1 [0.9084 0.4467 0.9071 0.9071 4.200540]
+Sending PUBLISH (dFalse, q1, r0, m46, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 45)
+Received PUBLISH (d0, q1, r0, m43, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 43)
+uisgroup/plant_state 1 [0.9278 0.4372 0.9071 0.9071 4.301203]
+Sending PUBLISH (dFalse, q1, r0, m47, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 46)
+Received PUBLISH (d0, q1, r0, m44, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 44)
+uisgroup/plant_state 1 [0.9432 0.4284 0.9071 -0.8106 4.400915]
+Sending PUBLISH (dFalse, q1, r0, m48, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 47)
+Received PUBLISH (d0, q1, r0, m45, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 45)
+uisgroup/plant_state 1 [0.9546 0.4236 0.9071 -0.9071 4.501014]
+Sending PUBLISH (dFalse, q1, r0, m49, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 48)
+Received PUBLISH (d0, q1, r0, m46, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 46)
+uisgroup/plant_state 1 [0.9621 0.4227 0.9071 -0.9071 4.600449]
+Sending PUBLISH (dFalse, q1, r0, m50, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 49)
+Received PUBLISH (d0, q1, r0, m47, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 47)
+uisgroup/plant_state 1 [0.9656 0.4258 0.9071 -0.9071 4.700858]
+Sending PUBLISH (dFalse, q1, r0, m51, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 50)
+Received PUBLISH (d0, q1, r0, m48, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 48)
+uisgroup/plant_state 1 [0.9651 0.4328 0.9071 -0.9071 4.800486]
+Sending PUBLISH (dFalse, q1, r0, m52, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 51)
+Received PUBLISH (d0, q1, r0, m49, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 49)
+uisgroup/plant_state 1 [0.9643 0.4438 0.5217 -0.9071 4.901037]
+Sending PUBLISH (dFalse, q1, r0, m53, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 52)
+Received PUBLISH (d0, q1, r0, m50, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 50)
+uisgroup/plant_state 1 [0.9661 0.4588 -0.9071 -0.9071 5.000984]
+Sending PUBLISH (dFalse, q1, r0, m54, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 53)
+Received PUBLISH (d0, q1, r0, m51, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 51)
+uisgroup/plant_state 1 [0.9718 0.4778 -0.9071 -0.9071 5.101137]
+Sending PUBLISH (dFalse, q1, r0, m55, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 54)
+Received PUBLISH (d0, q1, r0, m52, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 52)
+uisgroup/plant_state 1 [0.9816 0.5007 -0.9071 -0.9071 5.201321]
+Sending PUBLISH (dFalse, q1, r0, m56, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 55)
+Received PUBLISH (d0, q1, r0, m53, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 53)
+uisgroup/plant_state 1 [0.9952 0.5276 -0.9071 -0.9071 5.301285]
+Sending PUBLISH (dFalse, q1, r0, m57, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 56)
+Received PUBLISH (d0, q1, r0, m54, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 54)
+uisgroup/plant_state 1 [1.0129 0.5584 -0.9071 -0.9071 5.401143]
+Sending PUBLISH (dFalse, q1, r0, m58, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 57)
+Received PUBLISH (d0, q1, r0, m55, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 55)
+uisgroup/plant_state 1 [1.0345 0.5892 -0.9071 0.0623 5.501806]
+Sending PUBLISH (dFalse, q1, r0, m59, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 58)
+Received PUBLISH (d0, q1, r0, m56, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 56)
+uisgroup/plant_state 1 [1.0601 0.6167 -0.9071 0.9071 5.600502]
+Sending PUBLISH (dFalse, q1, r0, m60, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 59)
+Received PUBLISH (d0, q1, r0, m57, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 57)
+uisgroup/plant_state 1 [1.0897 0.6404 -0.9071 0.9071 5.700642]
+Sending PUBLISH (dFalse, q1, r0, m61, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 60)
+Received PUBLISH (d0, q1, r0, m58, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 58)
+uisgroup/plant_state 1 [1.1232 0.6600 -0.9071 0.9071 5.800806]
+Sending PUBLISH (dFalse, q1, r0, m62, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 61)
+Received PUBLISH (d0, q1, r0, m59, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 59)
+uisgroup/plant_state 1 [1.1605 0.6757 -0.9071 0.9071 5.901443]
+Sending PUBLISH (dFalse, q1, r0, m63, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 62)
+Received PUBLISH (d0, q1, r0, m60, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 60)
+uisgroup/plant_state 1 [1.1969 0.6874 0.9071 0.9071 6.000739]
+Sending PUBLISH (dFalse, q1, r0, m64, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 63)
+Received PUBLISH (d0, q1, r0, m61, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 61)
+uisgroup/plant_state 1 [1.2293 0.6951 0.9071 0.9071 6.101509]
+Sending PUBLISH (dFalse, q1, r0, m65, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 64)
+Received PUBLISH (d0, q1, r0, m62, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 62)
+uisgroup/plant_state 1 [1.2577 0.6989 0.9071 0.9071 6.201188]
+Sending PUBLISH (dFalse, q1, r0, m66, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 65)
+Received PUBLISH (d0, q1, r0, m63, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 63)
+uisgroup/plant_state 1 [1.2822 0.6987 0.9071 0.9071 6.300365]
+Sending PUBLISH (dFalse, q1, r0, m67, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 66)
+Received PUBLISH (d0, q1, r0, m64, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 64)
+uisgroup/plant_state 1 [1.3027 0.6945 0.9071 0.9071 6.401000]
+Sending PUBLISH (dFalse, q1, r0, m68, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 67)
+Received PUBLISH (d0, q1, r0, m65, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 65)
+uisgroup/plant_state 1 [1.3193 0.6863 0.9071 0.9071 6.500753]
+Sending PUBLISH (dFalse, q1, r0, m69, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 68)
+Received PUBLISH (d0, q1, r0, m66, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 66)
+uisgroup/plant_state 1 [1.3318 0.6746 0.9071 0.9071 6.600920]
+Sending PUBLISH (dFalse, q1, r0, m70, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 69)
+Received PUBLISH (d0, q1, r0, m67, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 67)
+uisgroup/plant_state 1 [1.3404 0.6637 0.9071 -0.9071 6.700432]
+Sending PUBLISH (dFalse, q1, r0, m71, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 70)
+Received PUBLISH (d0, q1, r0, m68, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 68)
+uisgroup/plant_state 1 [1.3451 0.6568 0.9071 -0.9071 6.800645]
+Sending PUBLISH (dFalse, q1, r0, m72, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 71)
+Received PUBLISH (d0, q1, r0, m69, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 69)
+uisgroup/plant_state 1 [1.3457 0.6539 0.9071 -0.9071 6.900812]
+Sending PUBLISH (dFalse, q1, r0, m73, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 72)
+Received PUBLISH (d0, q1, r0, m70, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 70)
+uisgroup/plant_state 1 [1.3424 0.6549 0.9071 -0.9071 7.000725]
+Sending PUBLISH (dFalse, q1, r0, m74, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 73)
+Received PUBLISH (d0, q1, r0, m71, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 71)
+uisgroup/plant_state 1 [1.3352 0.6599 0.9071 -0.9071 7.100824]
+Sending PUBLISH (dFalse, q1, r0, m75, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 74)
+Received PUBLISH (d0, q1, r0, m72, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 72)
+uisgroup/plant_state 1 [1.3273 0.6689 0.9034 -0.9071 7.200941]
+Sending PUBLISH (dFalse, q1, r0, m76, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 75)
+Received PUBLISH (d0, q1, r0, m73, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 73)
+uisgroup/plant_state 1 [1.3216 0.6818 -0.9071 -0.9071 7.300568]
+Sending PUBLISH (dFalse, q1, r0, m77, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 76)
+Received PUBLISH (d0, q1, r0, m74, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 74)
+uisgroup/plant_state 1 [1.3198 0.6988 -0.9071 -0.9071 7.401151]
+Sending PUBLISH (dFalse, q1, r0, m78, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 77)
+Received PUBLISH (d0, q1, r0, m75, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 75)
+uisgroup/plant_state 1 [1.3220 0.7196 -0.9071 -0.9071 7.500784]
+Sending PUBLISH (dFalse, q1, r0, m79, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 78)
+Received PUBLISH (d0, q1, r0, m76, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 76)
+uisgroup/plant_state 1 [1.3283 0.7445 -0.9071 -0.9071 7.600889]
+Sending PUBLISH (dFalse, q1, r0, m80, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 79)
+Received PUBLISH (d0, q1, r0, m77, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 77)
+uisgroup/plant_state 1 [1.3384 0.7733 -0.9071 -0.9071 7.700570]
+Sending PUBLISH (dFalse, q1, r0, m81, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 80)
+Received PUBLISH (d0, q1, r0, m78, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 78)
+uisgroup/plant_state 1 [1.3526 0.8016 -0.9071 0.5083 7.800644]
+Sending PUBLISH (dFalse, q1, r0, m82, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 81)
+Received PUBLISH (d0, q1, r0, m79, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 79)
+uisgroup/plant_state 1 [1.3707 0.8264 -0.9071 0.9071 7.900763]
+Sending PUBLISH (dFalse, q1, r0, m83, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 82)
+Received PUBLISH (d0, q1, r0, m80, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 80)
+uisgroup/plant_state 1 [1.3927 0.8472 -0.9071 0.9071 8.000407]
+Sending PUBLISH (dFalse, q1, r0, m84, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 83)
+Received PUBLISH (d0, q1, r0, m81, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 81)
+uisgroup/plant_state 1 [1.4188 0.8640 -0.9071 0.9071 8.101201]
+Sending PUBLISH (dFalse, q1, r0, m85, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 84)
+Received PUBLISH (d0, q1, r0, m82, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 82)
+uisgroup/plant_state 1 [1.4478 0.8768 -0.9071 0.9071 8.200839]
+Sending PUBLISH (dFalse, q1, r0, m86, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 85)
+Received PUBLISH (d0, q1, r0, m83, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 83)
+uisgroup/plant_state 1 [1.4756 0.8857 0.9071 0.9071 8.301484]
+Sending PUBLISH (dFalse, q1, r0, m87, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 86)
+Received PUBLISH (d0, q1, r0, m84, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 84)
+uisgroup/plant_state 1 [1.4994 0.8906 0.9071 0.9071 8.401616]
+Sending PUBLISH (dFalse, q1, r0, m88, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 87)
+Received PUBLISH (d0, q1, r0, m85, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 85)
+uisgroup/plant_state 1 [1.5192 0.8915 0.9071 0.9071 8.500410]
+Sending PUBLISH (dFalse, q1, r0, m89, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 88)
+Received PUBLISH (d0, q1, r0, m86, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 86)
+uisgroup/plant_state 1 [1.5351 0.8885 0.9071 0.9071 8.600866]
+Sending PUBLISH (dFalse, q1, r0, m90, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 89)
+Received PUBLISH (d0, q1, r0, m87, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 87)
+uisgroup/plant_state 1 [1.5470 0.8815 0.9071 0.9071 8.700503]
+Sending PUBLISH (dFalse, q1, r0, m91, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 90)
+Received PUBLISH (d0, q1, r0, m88, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 88)
+uisgroup/plant_state 1 [1.5550 0.8705 0.9071 0.9071 8.801522]
+Sending PUBLISH (dFalse, q1, r0, m92, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 91)
+Received PUBLISH (d0, q1, r0, m89, 'uisgroup/plant_state', ...  (38 bytes)
+Sending PUBACK (Mid: 89)
+uisgroup/plant_state 1 [1.5589 0.8560 0.9071 0.9071 8.901691]
+Sending PUBLISH (dFalse, q1, r0, m93, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 92)
+Received PUBLISH (d0, q1, r0, m90, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 90)
+uisgroup/plant_state 1 [1.5589 0.8422 0.9071 -0.8246 9.000419]
+Sending PUBLISH (dFalse, q1, r0, m94, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 93)
+Received PUBLISH (d0, q1, r0, m91, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 91)
+uisgroup/plant_state 1 [1.5550 0.8323 0.9071 -0.9071 9.100533]
+Sending PUBLISH (dFalse, q1, r0, m95, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 94)
+Received PUBLISH (d0, q1, r0, m92, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 92)
+uisgroup/plant_state 1 [1.5470 0.8263 0.9071 -0.9071 9.201194]
+Sending PUBLISH (dFalse, q1, r0, m96, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 95)
+Received PUBLISH (d0, q1, r0, m93, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 93)
+uisgroup/plant_state 1 [1.5351 0.8244 0.9071 -0.9071 9.300381]
+Sending PUBLISH (dFalse, q1, r0, m97, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 96)
+Received PUBLISH (d0, q1, r0, m94, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 94)
+uisgroup/plant_state 1 [1.5193 0.8264 0.9071 -0.9071 9.401025]
+Sending PUBLISH (dFalse, q1, r0, m98, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 97)
+Received PUBLISH (d0, q1, r0, m95, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 95)
+uisgroup/plant_state 1 [1.5030 0.8323 0.5904 -0.9071 9.500757]
+Sending PUBLISH (dFalse, q1, r0, m99, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 98)
+Received PUBLISH (d0, q1, r0, m96, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 96)
+uisgroup/plant_state 1 [1.4893 0.8423 -0.9071 -0.9071 9.600904]
+Sending PUBLISH (dFalse, q1, r0, m100, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 99)
+Received PUBLISH (d0, q1, r0, m97, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 97)
+uisgroup/plant_state 1 [1.4795 0.8562 -0.9071 -0.9071 9.700582]
+Sending PUBLISH (dFalse, q1, r0, m101, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 100)
+Received PUBLISH (d0, q1, r0, m98, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 98)
+uisgroup/plant_state 1 [1.4737 0.8741 -0.9071 -0.9071 9.800538]
+Sending PUBLISH (dFalse, q1, r0, m102, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 101)
+Received PUBLISH (d0, q1, r0, m99, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 99)
+uisgroup/plant_state 1 [1.4719 0.8959 -0.9071 -0.9071 9.900405]
+Sending PUBLISH (dFalse, q1, r0, m103, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 102)
+Received PUBLISH (d0, q1, r0, m100, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 100)
+uisgroup/plant_state 1 [1.4740 0.9217 -0.9071 -0.9071 10.001004]
+Sending PUBLISH (dFalse, q1, r0, m104, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 103)
+Received PUBLISH (d0, q1, r0, m101, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 101)
+uisgroup/plant_state 1 [1.4801 0.9471 -0.9071 0.5340 10.100655]
+Sending PUBLISH (dFalse, q1, r0, m105, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 104)
+Received PUBLISH (d0, q1, r0, m102, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 102)
+uisgroup/plant_state 1 [1.4902 0.9688 -0.9071 0.9071 10.200960]
+Sending PUBLISH (dFalse, q1, r0, m106, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 105)
+Received PUBLISH (d0, q1, r0, m103, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 103)
+uisgroup/plant_state 1 [1.5043 0.9865 -0.9071 0.9071 10.301125]
+Sending PUBLISH (dFalse, q1, r0, m107, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 106)
+Received PUBLISH (d0, q1, r0, m104, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 104)
+uisgroup/plant_state 1 [1.5223 1.0003 -0.9071 0.9071 10.401210]
+Sending PUBLISH (dFalse, q1, r0, m108, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 107)
+Received PUBLISH (d0, q1, r0, m105, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 105)
+uisgroup/plant_state 1 [1.5428 1.0101 -0.9071 0.9071 10.500823]
+Sending PUBLISH (dFalse, q1, r0, m109, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 108)
+Received PUBLISH (d0, q1, r0, m106, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 106)
+uisgroup/plant_state 1 [1.5618 1.0159 0.9071 0.9071 10.600992]
+Sending PUBLISH (dFalse, q1, r0, m110, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 109)
+Received PUBLISH (d0, q1, r0, m107, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 107)
+uisgroup/plant_state 1 [1.5768 1.0178 0.9071 0.9071 10.701008]
+Sending PUBLISH (dFalse, q1, r0, m111, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 110)
+Received PUBLISH (d0, q1, r0, m108, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 108)
+uisgroup/plant_state 1 [1.5879 1.0157 0.9071 0.9071 10.800666]
+Sending PUBLISH (dFalse, q1, r0, m112, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 111)
+Received PUBLISH (d0, q1, r0, m109, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 109)
+uisgroup/plant_state 1 [1.5950 1.0096 0.9071 0.9071 10.900839]
+Sending PUBLISH (dFalse, q1, r0, m113, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 112)
+Received PUBLISH (d0, q1, r0, m110, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 110)
+uisgroup/plant_state 1 [1.5982 0.9995 0.9071 0.9071 11.000956]
+Sending PUBLISH (dFalse, q1, r0, m114, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 113)
+Received PUBLISH (d0, q1, r0, m111, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 111)
+uisgroup/plant_state 1 [1.5973 0.9855 0.9071 0.9071 11.100630]
+Sending PUBLISH (dFalse, q1, r0, m115, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 114)
+Received PUBLISH (d0, q1, r0, m112, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 112)
+uisgroup/plant_state 1 [1.5925 0.9676 0.9071 0.9071 11.200723]
+Sending PUBLISH (dFalse, q1, r0, m116, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 115)
+Received PUBLISH (d0, q1, r0, m113, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 113)
+uisgroup/plant_state 1 [1.5838 0.9500 0.9071 -0.4979 11.300439]
+Sending PUBLISH (dFalse, q1, r0, m117, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 116)
+Received PUBLISH (d0, q1, r0, m114, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 114)
+uisgroup/plant_state 1 [1.5710 0.9361 0.9071 -0.9071 11.400982]
+Sending PUBLISH (dFalse, q1, r0, m118, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 117)
+Received PUBLISH (d0, q1, r0, m115, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 115)
+uisgroup/plant_state 1 [1.5543 0.9261 0.9071 -0.9071 11.501155]
+Sending PUBLISH (dFalse, q1, r0, m119, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 118)
+Received PUBLISH (d0, q1, r0, m116, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 116)
+uisgroup/plant_state 1 [1.5337 0.9201 0.9071 -0.9071 11.600756]
+Sending PUBLISH (dFalse, q1, r0, m120, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 119)
+Received PUBLISH (d0, q1, r0, m117, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 117)
+uisgroup/plant_state 1 [1.5090 0.9181 0.9071 -0.9071 11.700871]
+Sending PUBLISH (dFalse, q1, r0, m121, 'uisgroup/control_action', ... (67 bytes)
+Received PUBACK (Mid: 120)
+Received PUBLISH (d0, q1, r0, m118, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 118)
+uisgroup/plant_state 1 [1.4844 0.9201 0.0374 -0.9071 11.800978]
+Sending PUBLISH (dFalse, q1, r0, m122, 'uisgroup/control_action', ... (67 bytes)
+Received PUBACK (Mid: 121)
+Received PUBLISH (d0, q1, r0, m119, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 119)
+uisgroup/plant_state 1 [1.4629 0.9260 -0.9071 -0.9071 11.901133]
+Sending PUBLISH (dFalse, q1, r0, m123, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 122)
+Received PUBLISH (d0, q1, r0, m120, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 120)
+uisgroup/plant_state 1 [1.4454 0.9358 -0.9071 -0.9071 12.001219]
+Sending PUBLISH (dFalse, q1, r0, m124, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 123)
+Received PUBLISH (d0, q1, r0, m121, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 121)
+uisgroup/plant_state 1 [1.4318 0.9497 -0.9071 -0.9071 12.100359]
+Sending PUBLISH (dFalse, q1, r0, m125, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 124)
+Received PUBLISH (d0, q1, r0, m122, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 122)
+uisgroup/plant_state 1 [1.4221 0.9675 -0.9071 -0.9071 12.201047]
+Sending PUBLISH (dFalse, q1, r0, m126, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 125)
+Received PUBLISH (d0, q1, r0, m123, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 123)
+uisgroup/plant_state 1 [1.4165 0.9893 -0.9071 -0.9071 12.300662]
+Sending PUBLISH (dFalse, q1, r0, m127, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 126)
+Received PUBLISH (d0, q1, r0, m124, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 124)
+uisgroup/plant_state 1 [1.4148 1.0110 -0.9071 -0.0627 12.401112]
+Sending PUBLISH (dFalse, q1, r0, m128, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 127)
+Received PUBLISH (d0, q1, r0, m125, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 125)
+uisgroup/plant_state 1 [1.4171 1.0298 -0.9071 0.9071 12.500827]
+Sending PUBLISH (dFalse, q1, r0, m129, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 128)
+Received PUBLISH (d0, q1, r0, m126, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 126)
+uisgroup/plant_state 1 [1.4233 1.0445 -0.9071 0.9071 12.600905]
+Sending PUBLISH (dFalse, q1, r0, m130, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 129)
+Received PUBLISH (d0, q1, r0, m127, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 127)
+uisgroup/plant_state 1 [1.4336 1.0553 -0.9071 0.9071 12.701060]
+Sending PUBLISH (dFalse, q1, r0, m131, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 130)
+Received PUBLISH (d0, q1, r0, m128, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 128)
+uisgroup/plant_state 1 [1.4465 1.0621 -0.9071 0.9071 12.800397]
+Sending PUBLISH (dFalse, q1, r0, m132, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 131)
+Received PUBLISH (d0, q1, r0, m129, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 129)
+uisgroup/plant_state 1 [1.4581 1.0650 0.9071 0.9071 12.900539]
+Sending PUBLISH (dFalse, q1, r0, m133, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 132)
+Received PUBLISH (d0, q1, r0, m130, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 130)
+uisgroup/plant_state 1 [1.4657 1.0638 0.9071 0.9071 13.000703]
+Sending PUBLISH (dFalse, q1, r0, m134, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 133)
+Received PUBLISH (d0, q1, r0, m131, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 131)
+uisgroup/plant_state 1 [1.4693 1.0587 0.9071 0.9071 13.101304]
+Sending PUBLISH (dFalse, q1, r0, m135, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 134)
+Received PUBLISH (d0, q1, r0, m132, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 132)
+uisgroup/plant_state 1 [1.4690 1.0497 0.9071 0.9071 13.200923]
+Sending PUBLISH (dFalse, q1, r0, m136, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 135)
+Received PUBLISH (d0, q1, r0, m133, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 133)
+uisgroup/plant_state 1 [1.4647 1.0366 0.9071 0.9071 13.301059]
+Sending PUBLISH (dFalse, q1, r0, m137, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 136)
+Received PUBLISH (d0, q1, r0, m134, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 134)
+uisgroup/plant_state 1 [1.4565 1.0196 0.9071 0.9071 13.401307]
+Sending PUBLISH (dFalse, q1, r0, m138, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 137)
+Received PUBLISH (d0, q1, r0, m135, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 135)
+uisgroup/plant_state 1 [1.4443 0.9987 0.9071 0.9071 13.500382]
+Sending PUBLISH (dFalse, q1, r0, m139, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 138)
+Received PUBLISH (d0, q1, r0, m136, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 136)
+uisgroup/plant_state 1 [1.4281 0.9778 0.9071 0.0160 13.600972]
+Sending PUBLISH (dFalse, q1, r0, m140, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 139)
+Received PUBLISH (d0, q1, r0, m137, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 137)
+uisgroup/plant_state 1 [1.4079 0.9600 0.9071 -0.9071 13.700582]
+Sending PUBLISH (dFalse, q1, r0, m141, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 140)
+Received PUBLISH (d0, q1, r0, m138, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 138)
+uisgroup/plant_state 1 [1.3838 0.9461 0.9071 -0.9071 13.800434]
+Sending PUBLISH (dFalse, q1, r0, m142, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 141)
+Received PUBLISH (d0, q1, r0, m139, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 139)
+uisgroup/plant_state 1 [1.3557 0.9362 0.9071 -0.9071 13.900946]
+Sending PUBLISH (dFalse, q1, r0, m143, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 142)
+Received PUBLISH (d0, q1, r0, m140, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 140)
+uisgroup/plant_state 1 [1.3236 0.9303 0.9071 -0.9071 14.001111]
+Sending PUBLISH (dFalse, q1, r0, m144, 'uisgroup/control_action', ... (67 bytes)
+Received PUBACK (Mid: 143)
+Received PUBLISH (d0, q1, r0, m141, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 141)
+uisgroup/plant_state 1 [1.2921 0.9284 -0.6271 -0.9071 14.101160]
+Sending PUBLISH (dFalse, q1, r0, m145, 'uisgroup/control_action', ... (67 bytes)
+Received PUBACK (Mid: 144)
+Received PUBLISH (d0, q1, r0, m142, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 142)
+uisgroup/plant_state 1 [1.2643 0.9304 -0.9071 -0.9071 14.200929]
+Sending PUBLISH (dFalse, q1, r0, m146, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 145)
+Received PUBLISH (d0, q1, r0, m143, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 143)
+uisgroup/plant_state 1 [1.2405 0.9364 -0.9071 -0.9071 14.300940]
+Sending PUBLISH (dFalse, q1, r0, m147, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 146)
+Received PUBLISH (d0, q1, r0, m144, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 144)
+uisgroup/plant_state 1 [1.2207 0.9463 -0.9071 -0.9071 14.400722]
+Sending PUBLISH (dFalse, q1, r0, m148, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 147)
+Received PUBLISH (d0, q1, r0, m145, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 145)
+uisgroup/plant_state 1 [1.2048 0.9603 -0.9071 -0.9071 14.500461]
+Sending PUBLISH (dFalse, q1, r0, m149, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 148)
+Received PUBLISH (d0, q1, r0, m146, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 146)
+uisgroup/plant_state 1 [1.1929 0.9782 -0.9071 -0.9071 14.601048]
+Sending PUBLISH (dFalse, q1, r0, m150, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 149)
+Received PUBLISH (d0, q1, r0, m147, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 147)
+uisgroup/plant_state 1 [1.1849 0.9961 -0.9071 -0.1424 14.701059]
+Sending PUBLISH (dFalse, q1, r0, m151, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 150)
+Received PUBLISH (d0, q1, r0, m148, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 148)
+uisgroup/plant_state 1 [1.1809 1.0111 -0.9071 0.9071 14.800667]
+Sending PUBLISH (dFalse, q1, r0, m152, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 151)
+Received PUBLISH (d0, q1, r0, m149, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 149)
+uisgroup/plant_state 1 [1.1809 1.0221 -0.9071 0.9071 14.900891]
+Sending PUBLISH (dFalse, q1, r0, m153, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 152)
+Received PUBLISH (d0, q1, r0, m150, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 150)
+uisgroup/plant_state 1 [1.1849 1.0291 -0.9071 0.9071 15.001011]
+Sending PUBLISH (dFalse, q1, r0, m154, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 153)
+Received PUBLISH (d0, q1, r0, m151, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 151)
+uisgroup/plant_state 1 [1.1928 1.0322 -0.9071 0.9071 15.100680]
+Sending PUBLISH (dFalse, q1, r0, m155, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 154)
+Received PUBLISH (d0, q1, r0, m152, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 152)
+uisgroup/plant_state 1 [1.2001 1.0313 0.6679 0.9071 15.200722]
+Sending PUBLISH (dFalse, q1, r0, m156, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 155)
+Received PUBLISH (d0, q1, r0, m153, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 153)
+uisgroup/plant_state 1 [1.2037 1.0264 0.9071 0.9071 15.300674]
+Sending PUBLISH (dFalse, q1, r0, m157, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 156)
+Received PUBLISH (d0, q1, r0, m154, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 154)
+uisgroup/plant_state 1 [1.2033 1.0176 0.9071 0.9071 15.401283]
+Sending PUBLISH (dFalse, q1, r0, m158, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 157)
+Received PUBLISH (d0, q1, r0, m155, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 155)
+uisgroup/plant_state 1 [1.1989 1.0047 0.9071 0.9071 15.500424]
+Sending PUBLISH (dFalse, q1, r0, m159, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 158)
+Received PUBLISH (d0, q1, r0, m156, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 156)
+uisgroup/plant_state 1 [1.1906 0.9880 0.9071 0.9071 15.600540]
+Sending PUBLISH (dFalse, q1, r0, m160, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 159)
+Received PUBLISH (d0, q1, r0, m157, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 157)
+uisgroup/plant_state 1 [1.1783 0.9672 0.9071 0.9071 15.700660]
+Sending PUBLISH (dFalse, q1, r0, m161, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 160)
+Received PUBLISH (d0, q1, r0, m158, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 158)
+uisgroup/plant_state 1 [1.1621 0.9425 0.9071 0.9071 15.800825]
+Sending PUBLISH (dFalse, q1, r0, m162, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 161)
+Received PUBLISH (d0, q1, r0, m159, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 159)
+uisgroup/plant_state 1 [1.1418 0.9182 0.9071 -0.3666 15.900429]
+Sending PUBLISH (dFalse, q1, r0, m163, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 162)
+Received PUBLISH (d0, q1, r0, m160, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 160)
+uisgroup/plant_state 1 [1.1176 0.8973 0.9071 -0.9071 16.001046]
+Sending PUBLISH (dFalse, q1, r0, m164, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 163)
+Received PUBLISH (d0, q1, r0, m161, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 161)
+uisgroup/plant_state 1 [1.0895 0.8803 0.9071 -0.9071 16.100665]
+Sending PUBLISH (dFalse, q1, r0, m165, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 164)
+Received PUBLISH (d0, q1, r0, m162, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 162)
+uisgroup/plant_state 1 [1.0573 0.8674 0.9071 -0.9071 16.200363]
+Sending PUBLISH (dFalse, q1, r0, m166, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 165)
+Received PUBLISH (d0, q1, r0, m163, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 163)
+uisgroup/plant_state 1 [1.0212 0.8584 0.9071 -0.9071 16.300484]
+Sending PUBLISH (dFalse, q1, r0, m167, 'uisgroup/control_action', ... (67 bytes)
+Received PUBACK (Mid: 166)
+Received PUBLISH (d0, q1, r0, m164, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 164)
+uisgroup/plant_state 1 [0.9856 0.8534 -0.5111 -0.9071 16.400534]
+Sending PUBLISH (dFalse, q1, r0, m168, 'uisgroup/control_action', ... (67 bytes)
+Received PUBACK (Mid: 167)
+Received PUBLISH (d0, q1, r0, m165, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 165)
+uisgroup/plant_state 1 [0.9536 0.8523 -0.9071 -0.9071 16.501159]
+Sending PUBLISH (dFalse, q1, r0, m169, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 168)
+Received PUBLISH (d0, q1, r0, m166, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 166)
+uisgroup/plant_state 1 [0.9255 0.8552 -0.9071 -0.9071 16.600888]
+Sending PUBLISH (dFalse, q1, r0, m170, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 169)
+Received PUBLISH (d0, q1, r0, m167, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 167)
+uisgroup/plant_state 1 [0.9014 0.8621 -0.9071 -0.9071 16.700539]
+Sending PUBLISH (dFalse, q1, r0, m171, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 170)
+Received PUBLISH (d0, q1, r0, m168, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 168)
+uisgroup/plant_state 1 [0.8813 0.8729 -0.9071 -0.9071 16.801347]
+Sending PUBLISH (dFalse, q1, r0, m172, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 171)
+Received PUBLISH (d0, q1, r0, m169, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 169)
+uisgroup/plant_state 1 [0.8651 0.8878 -0.9071 -0.9071 16.901019]
+Sending PUBLISH (dFalse, q1, r0, m173, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 172)
+Received PUBLISH (d0, q1, r0, m170, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 170)
+uisgroup/plant_state 1 [0.8529 0.9024 -0.9071 0.1427 17.000743]
+Sending PUBLISH (dFalse, q1, r0, m174, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 173)
+Received PUBLISH (d0, q1, r0, m171, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 171)
+uisgroup/plant_state 1 [0.8447 0.9138 -0.9071 0.9071 17.100894]
+Sending PUBLISH (dFalse, q1, r0, m175, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 174)
+Received PUBLISH (d0, q1, r0, m172, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 172)
+uisgroup/plant_state 1 [0.8404 0.9212 -0.9071 0.9071 17.201071]
+Sending PUBLISH (dFalse, q1, r0, m176, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 175)
+Received PUBLISH (d0, q1, r0, m173, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 173)
+uisgroup/plant_state 1 [0.8401 0.9247 -0.9071 0.9071 17.300510]
+Sending PUBLISH (dFalse, q1, r0, m177, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 176)
+Received PUBLISH (d0, q1, r0, m174, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 174)
+uisgroup/plant_state 1 [0.8438 0.9242 -0.9071 0.9071 17.400901]
+Sending PUBLISH (dFalse, q1, r0, m178, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 177)
+Received PUBLISH (d0, q1, r0, m175, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 175)
+uisgroup/plant_state 1 [0.8482 0.9197 -0.9071 0.9071 17.501084]
+Sending PUBLISH (dFalse, q1, r0, m179, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 178)
+Received PUBLISH (d0, q1, r0, m176, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 176)
+uisgroup/plant_state 1 [0.8504 0.9112 0.9071 0.9071 17.600367]
+Sending PUBLISH (dFalse, q1, r0, m180, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 179)
+Received PUBLISH (d0, q1, r0, m177, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 177)
+uisgroup/plant_state 1 [0.8486 0.8988 0.9071 0.9071 17.700422]
+Sending PUBLISH (dFalse, q1, r0, m181, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 180)
+Received PUBLISH (d0, q1, r0, m178, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 178)
+uisgroup/plant_state 1 [0.8429 0.8824 0.9071 0.9071 17.801291]
+Sending PUBLISH (dFalse, q1, r0, m182, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 181)
+Received PUBLISH (d0, q1, r0, m179, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 179)
+uisgroup/plant_state 1 [0.8332 0.8621 0.9071 0.9071 17.900529]
+Sending PUBLISH (dFalse, q1, r0, m183, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 182)
+Received PUBLISH (d0, q1, r0, m180, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 180)
+uisgroup/plant_state 1 [0.8195 0.8377 0.9071 0.9071 18.000694]
+Sending PUBLISH (dFalse, q1, r0, m184, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 183)
+Received PUBLISH (d0, q1, r0, m181, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 181)
+uisgroup/plant_state 1 [0.8019 0.8095 0.9071 0.9071 18.100681]
+Sending PUBLISH (dFalse, q1, r0, m185, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 184)
+Received PUBLISH (d0, q1, r0, m182, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 182)
+uisgroup/plant_state 1 [0.7803 0.7817 0.9071 -0.5530 18.200812]
+Sending PUBLISH (dFalse, q1, r0, m186, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 185)
+Received PUBLISH (d0, q1, r0, m183, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 183)
+uisgroup/plant_state 1 [0.7547 0.7575 0.9071 -0.9071 18.300402]
+Sending PUBLISH (dFalse, q1, r0, m187, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 186)
+Received PUBLISH (d0, q1, r0, m184, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 184)
+uisgroup/plant_state 1 [0.7251 0.7373 0.9071 -0.9071 18.401019]
+Sending PUBLISH (dFalse, q1, r0, m188, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 187)
+Received PUBLISH (d0, q1, r0, m185, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 185)
+uisgroup/plant_state 1 [0.6916 0.7211 0.9071 -0.9071 18.501155]
+Sending PUBLISH (dFalse, q1, r0, m189, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 188)
+Received PUBLISH (d0, q1, r0, m186, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 186)
+uisgroup/plant_state 1 [0.6557 0.7089 0.9071 -0.9071 18.600813]
+Sending PUBLISH (dFalse, q1, r0, m190, 'uisgroup/control_action', ... (67 bytes)
+Received PUBACK (Mid: 189)
+Received PUBLISH (d0, q1, r0, m187, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 187)
+uisgroup/plant_state 1 [0.6213 0.7006 -0.9071 -0.9071 18.700927]
+Sending PUBLISH (dFalse, q1, r0, m191, 'uisgroup/control_action', ... (67 bytes)
+Received PUBACK (Mid: 190)
+Received PUBLISH (d0, q1, r0, m188, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 188)
+uisgroup/plant_state 1 [0.5908 0.6963 -0.9071 -0.9071 18.800599]
+Sending PUBLISH (dFalse, q1, r0, m192, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 191)
+Received PUBLISH (d0, q1, r0, m189, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 189)
+uisgroup/plant_state 1 [0.5643 0.6960 -0.9071 -0.9071 18.901218]
+Sending PUBLISH (dFalse, q1, r0, m193, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 192)
+Received PUBLISH (d0, q1, r0, m190, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 190)
+uisgroup/plant_state 1 [0.5418 0.6996 -0.9071 -0.9071 19.000791]
+Sending PUBLISH (dFalse, q1, r0, m194, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 193)
+Received PUBLISH (d0, q1, r0, m191, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 191)
+uisgroup/plant_state 1 [0.5233 0.7072 -0.9071 -0.9071 19.100393]
+Sending PUBLISH (dFalse, q1, r0, m195, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 194)
+Received PUBLISH (d0, q1, r0, m192, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 192)
+uisgroup/plant_state 1 [0.5087 0.7188 -0.9071 -0.9071 19.200513]
+Sending PUBLISH (dFalse, q1, r0, m196, 'uisgroup/control_action', ... (66 bytes)
+Received PUBACK (Mid: 195)
+Received PUBLISH (d0, q1, r0, m193, 'uisgroup/plant_state', ...  (41 bytes)
+Sending PUBACK (Mid: 193)
+uisgroup/plant_state 1 [0.4981 0.7304 -0.9071 -0.1995 19.300638]
+Sending PUBLISH (dFalse, q1, r0, m197, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 196)
+Received PUBLISH (d0, q1, r0, m194, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 194)
+uisgroup/plant_state 1 [0.4914 0.7392 -0.9071 0.9071 19.400775]
+Sending PUBLISH (dFalse, q1, r0, m198, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 197)
+Received PUBLISH (d0, q1, r0, m195, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 195)
+uisgroup/plant_state 1 [0.4887 0.7439 -0.9071 0.9071 19.500392]
+Sending PUBLISH (dFalse, q1, r0, m199, 'uisgroup/control_action', ... (63 bytes)
+Received PUBACK (Mid: 198)
+Received PUBLISH (d0, q1, r0, m196, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 196)
+uisgroup/plant_state 1 [0.4900 0.7447 -0.9071 0.9071 19.600505]
+Sending PUBLISH (dFalse, q1, r0, m200, 'uisgroup/control_action', ... (64 bytes)
+Received PUBACK (Mid: 199)
+Received PUBLISH (d0, q1, r0, m197, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 197)
+uisgroup/plant_state 1 [0.4953 0.7416 -0.9071 0.9071 19.700625]
+Sending PUBLISH (dFalse, q1, r0, m201, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 200)
+Received PUBLISH (d0, q1, r0, m198, 'uisgroup/plant_state', ...  (40 bytes)
+Sending PUBACK (Mid: 198)
+uisgroup/plant_state 1 [0.5007 0.7344 -0.3185 0.9071 19.800516]
+Sending PUBLISH (dFalse, q1, r0, m202, 'uisgroup/control_action', ... (65 bytes)
+Received PUBACK (Mid: 201)
+Received PUBLISH (d0, q1, r0, m199, 'uisgroup/plant_state', ...  (39 bytes)
+Sending PUBACK (Mid: 199)
+uisgroup/plant_state 1 [0.5033 0.7233 0.9071 0.9071 19.900655]
+Sending PUBLISH (dFalse, q1, r0, m203, 'uisgroup/control_action', ... (13 bytes)

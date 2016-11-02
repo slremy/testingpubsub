@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+        <!--
+         Copyright (c) 2012 Sekou Remy
+         
+         Permission is hereby granted, free of charge, to any person obtaining a copy
+         of this software and associated documentation files (the "Software"), to deal
+         in the Software without restriction, including without limitation the rights
+         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+         copies of the Software, and to permit persons to whom the Software is
+         furnished to do so, subject to the following conditions:
+         
+         The above copyright notice and this permission notice shall be included in
+         all copies or substantial portions of the Software.
+         
+         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+         AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+         THE SOFTWARE.
+        -->
+        <head>
+                <meta charset="UTF-8">
+                <style>
+                        body {
+                                margin: 0px;
+                                padding: 0px;
+                        }
+                        </style>
+                        <script>
+                                base_url = window.location.protocol + "//" + window.location.host
+                        </script>
+        </head>
+        <body>
+                <canvas id="myCanvas" width="600" height="600"></canvas>
+                <script>
+                        var L = document.getElementById('myCanvas').width;
+                        var H = document.getElementById('myCanvas').height;
+                        var R = 20;
+                        var Startx = 5;
+                        var Starty = 100;
+
+                        var dist = L/2;
+                        var alpha = 0;
+
+
+                        function getstate(url)
+                        {
+
+                                var req = new XMLHttpRequest();
+                                var data=[];
+                                var now = new Date();
+                                req.open("GET", url, false); 
+                                req.send(null);
+
+                                if(req.status == 200) {
+                                        data=req.response.split(" ");
+                                        data[0]=180*parseFloat(data[0])+L/2;
+                                        data[1]=180*parseFloat(data[1])+H/2;
+                                        console.log(data)
+                                }else{
+
+                                        data[0]=(90*Math.sin(now.getTime()/60 * Math.PI/180));
+                                        data[1]=0
+                                }
+                                return data
+                        }
+                </script>
+
+                <script>
+                        var canvas = document.getElementById('myCanvas');
+                        var context = canvas.getContext('2d');
+
+ 
+                        function circle(x, y, r, color){
+                                context.fillStyle = color;
+                                context.beginPath();
+                                context.arc(x, y, r, 0, Math.PI*2, true);
+                                context.closePath();
+                                context.fill();
+                        }
+
+                        function ball(x,y,r,color){
+                                //ball properties
+                                this.x = x;
+                                this.y = y;
+                                this.r = r;
+                                this.color = color;
+                                //ball methods
+                                this.update = function(){
+                                        context.fillStyle = "#555555";
+                                        context.rect(0, 0, canvas.width, canvas.height);
+                                        context.fill();
+
+                                        data=getstate(base_url+"/state?");
+                                        this.x= data[0];
+                                        this.y= data[1];
+
+
+                                        //context.beginPath();
+                                        //context.moveTo(Startx, Starty);
+                                        //var Xb = Startx + (L*Math.cos(alpha * Math.PI/180));
+                                        //var Yb = Starty + (-L*Math.sin(alpha * Math.PI/180));
+                                        //context.lineTo(Xb, Yb);
+                                        //context.stroke();
+
+                                }
+                                this.draw = function(){
+                                //refresh canvas
+                                        circle(this.x, this.y, this.r, this.color);
+                                }
+                        }
+
+                        function initballbeam(){
+                                myball = new ball(Startx,Starty,R,"#FF3333");
+                                intervalId = setInterval(updateSystem, 1000/90);
+                        }
+                        function updateSystem(){
+                                myball.update();
+
+                                myball.draw();
+                        }
+                         
+                        initballbeam();
+
+                </script>
+                <script>
+                        var keyPressed = {};
+                        var u = 0;
+                        var umax = .2;
+
+                        document.addEventListener('keydown', function(e) {
+                             keyPressed[e.keyCode] = true;
+                             }, false);
+                        document.addEventListener('keyup', function(e) {
+                             keyPressed[e.keyCode] = false;
+                             }, false);
+
+                        function initKeyboard(){
+                                intervalId = setInterval(checkKeyboard, 1000/30);
+                        }
+                        function sendControl(value)
+                        {
+                                var xmlHttp = null;
+                                xmlHttp = new XMLHttpRequest();
+                                xmlHttp.open( "GET", base_url + "/u?value="+value, true );
+                                xmlHttp.send( null );
+                                return  
+                        }
+
+                        function checkKeyboard(){
+                                if (keyPressed["38"])
+                                {
+                                        u=umax;
+                                        sendControl(u);
+                                }
+                                else if (keyPressed["40"]) 
+                                {
+                                        u=-umax;
+                                        sendControl(u);
+                                }
+                                else
+                                {
+                                        u=0;
+                                }
+
+                        }
+                         
+                        initKeyboard();
+
+                </script>
+
+        </body>
+</html>
