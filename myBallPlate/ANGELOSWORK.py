@@ -50,13 +50,12 @@ def myNet(net, sampleInterval = '.1', directory = 'ballplate/'):
 
 
     brokerLoc = "10.0.0.1"
-    h1.cmd("ifconfig > h1.txt")
+    h1.cmd("ifconfig > "+t+"/h1.txt")
 
     brokersRunning = 'mosquitto -p 9883 > ' + 'mosquittoOutput.txt &'
     plantsRunning = 'python nlmodel_mqtt.py ' + brokerLoc + ' 9883 uisgroup/control_action__1__uisgroup/plant_state__1 &' 
-    controllersRunning = 'python nlcontroller.py mqtt bar ' + brokerLoc + ' 9883 n2oEast_kodiaodsfijng_new 20 ' + sampleInterval + ' 6.09 3.5 -5.18 -12.08 6.58 -0.4 > ' + t +'/controllerOut.txt'
+    controllersRunning = 'cd '+ t + '; python ../nlcontroller.py mqtt bar ' + brokerLoc + ' 9883 n2oEast_new 200 ' + sampleInterval + ' 6.09 3.5 -5.18 -12.08 6.58 -0.4 > controllerOut.txt'
 
-    
     h1.sendCmd(brokersRunning)
     h2.sendCmd(plantsRunning)
     h3.cmd(controllersRunning)
@@ -64,10 +63,10 @@ def myNet(net, sampleInterval = '.1', directory = 'ballplate/'):
 
 def run():
 
-    net = Mininet(topo = myTopo(), controller = OVSController)
+    net = Mininet(topo = myTopo())
     net.start()
     myNet(net)
-    CLI(net)
+    #CLI(net)
     net.stop()
     #net.start()
     #info( "Dumping host connections\n" )
