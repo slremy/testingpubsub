@@ -1,0 +1,3 @@
+(<type 'exceptions.IndexError'>, IndexError('list index out of range',), <traceback object at 0x7eff5b8221b8>)
+Usage: python nlmodel_mqtt.py host port controlaction__subQOS__plantstate__pubQOS
+e.g. python nlmodel_mqtt.py iot.eclipse.org 1883 uisgroup/control_action0__1__uisgroup/plant_state__1

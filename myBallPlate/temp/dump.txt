@@ -1,0 +1,18 @@
+15:22:09.058617 IP 10.0.2.15.45284 > 192.0.73.2.https: Flags [.], ack 2219650977, win 35500, length 0
+15:22:09.059193 IP 192.0.73.2.https > 10.0.2.15.45284: Flags [.], ack 1, win 65535, length 0
+15:22:10.032376 IP 10.0.2.15.35221 > ns1.clemson.edu.domain: 51672+ PTR? 2.73.0.192.in-addr.arpa. (41)
+15:22:10.032688 IP 10.0.2.15.35221 > ns2.clemson.edu.domain: 51672+ PTR? 2.73.0.192.in-addr.arpa. (41)
+15:22:10.036495 IP ns2.clemson.edu.domain > 10.0.2.15.35221: 51672 NXDomain 0/1/0 (106)
+15:22:10.037743 IP 10.0.2.15.42874 > ns2.clemson.edu.domain: 8327+ PTR? 15.2.0.10.in-addr.arpa. (40)
+15:22:10.043181 IP ns2.clemson.edu.domain > 10.0.2.15.42874: 8327 NXDomain* 0/1/0 (105)
+15:22:10.050912 IP ns1.clemson.edu.domain > 10.0.2.15.35221: 51672 NXDomain 0/1/0 (106)
+15:22:10.050981 IP 10.0.2.15 > ns1.clemson.edu: ICMP 10.0.2.15 udp port 35221 unreachable, length 142
+15:22:10.210359 IP 10.0.2.15.35206 > cache.google.com.https: Flags [.], ack 2213824294, win 30016, length 0
+15:22:10.210788 IP cache.google.com.https > 10.0.2.15.35206: Flags [.], ack 1, win 65535, length 0
+15:22:11.031965 IP 10.0.2.15.2903 > ns2.clemson.edu.domain: 32385+ PTR? 250.255.127.130.in-addr.arpa. (46)
+15:22:11.035271 IP ns2.clemson.edu.domain > 10.0.2.15.2903: 32385* 1/3/5 PTR ns1.clemson.edu. (242)
+15:22:11.036435 IP 10.0.2.15.1695 > ns2.clemson.edu.domain: 63887+ PTR? 251.255.127.130.in-addr.arpa. (46)
+15:22:11.039981 IP ns2.clemson.edu.domain > 10.0.2.15.1695: 63887* 1/3/5 PTR ns2.clemson.edu. (242)
+15:22:11.041340 IP 10.0.2.15.20644 > ns2.clemson.edu.domain: 47661+ PTR? 230.193.215.143.in-addr.arpa. (46)
+15:22:11.045066 IP ns2.clemson.edu.domain > 10.0.2.15.20644: 47661 1/3/5 PTR cache.google.com. (247)
+

@@ -1,0 +1,25 @@
+from sys import argv
+import pexpect
+
+
+
+if __name__ == '__main__':
+    children = []
+    for i in range(3, len(argv)):
+        children.append(pexpect.spawn('/bin/bash'))
+        children[i - 3].sendline(argv[i])
+        print(argv[i])
+
+    import time
+
+    time.sleep(int(argv[1]))
+    
+    for child in children:
+        child.sendcontrol('c')
+        child.expect(pexpect.EOF)
+
+    
+    if len(children) != 0:
+        open(argv[2] + '.txt', 'w').write(children[len(children) - 1].read())
+
+

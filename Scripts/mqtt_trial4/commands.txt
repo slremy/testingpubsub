@@ -1,0 +1,8 @@
+Loss Percent: 0
+Delay: 10ms
+Wait time: 22
+
+-------------------------------- Commands --------------------------------------
+mosqitto -p 9883 > mqtt_trial4/mosquittoOutput.txt &
+python ../myBallPlate/nlmodel_mqtt.py 10.0.0.1 9883 >mqtt_trial4/plantOutput.txt &
+python ../myBallPlate/nlcontroller.py mqtt ""10.0.0.1 9883 mqtt_trial4/controlOutput 20 .1 6.09 3.5 -5.18 -12.08 6.58 -0.4 > mqtt_trial4/controllerStdout.txt &
