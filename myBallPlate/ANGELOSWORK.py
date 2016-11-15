@@ -5,8 +5,10 @@ from mininet.log import setLogLevel, info
 from mininet.util import quietRun, dumpNodeConnections
 from mininet.cli import CLI
 from mininet.node import OVSController, Controller
+from mininet.link import TCLink
 
 #/etc/init.d/openvswitch-switch start
+
 import time
 class myTopo(Topo):
     def __init__(self, **ops):
@@ -19,7 +21,7 @@ class myTopo(Topo):
 
         #linking servers to respective switches... I may not need to use switches
         for i in range(3):
-            self.addLink(servers[i][1], switches[i])
+            self.addLink(servers[i][1], switches[i])#, delay='1000ms')
 
 
         #linking all switches to broker switch
@@ -54,16 +56,17 @@ def myNet(net, sampleInterval = '.1', directory = 'ballplate/'):
 
     brokersRunning = 'mosquitto -p 9883 > ' + 'mosquittoOutput.txt &'
     plantsRunning = 'python nlmodel_mqtt.py ' + brokerLoc + ' 9883 uisgroup/control_action__1__uisgroup/plant_state__1 &' 
-    controllersRunning = 'cd '+ t + '; python ../nlcontroller.py mqtt bar ' + brokerLoc + ' 9883 n2oEast_new 200 ' + sampleInterval + ' 6.09 3.5 -5.18 -12.08 6.58 -0.4 > controllerOut.txt'
+    controllersRunning = 'cd '+ t + '; python ../nlcontroller.py mqtt bar ' + brokerLoc + ' 9883 n2oEast_new 20 ' + sampleInterval + ' 6.09 3.5 -5.18 -12.08 6.58 -0.4 > controllerOut.txt &'
 
     h1.sendCmd(brokersRunning)
     h2.sendCmd(plantsRunning)
-    h3.cmd(controllersRunning)
+    h3.sendCmd(controllersRunning)
+    time.sleep(21)
     
 
 def run():
 
-    net = Mininet(topo = myTopo())
+    net = Mininet(topo = myTopo(), link = TCLink)
     net.start()
     myNet(net)
     #CLI(net)
