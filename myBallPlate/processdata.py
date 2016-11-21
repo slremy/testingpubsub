@@ -200,7 +200,7 @@ def errors(data):
 
 if __name__ == "__main__":
     path = argv[1]
-    controller1_l5=process(path+"/mqtt_bar_n2oEast_new.txt");
+    controller1_l5=process(path+"/mqtt_bar_control_action__1__plant_state__1.txt");
     controller1_l4=analyzetcp(path+'/Controller.pcap','10.0.0.3');
 
 
