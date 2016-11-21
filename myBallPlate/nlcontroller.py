@@ -90,11 +90,11 @@ elif client == 'dweet':
     print "Importing process from dweetclient"
 elif client =='kafka':
     from kafkaclient import *
-    initialize_handshake(host, port)
+    initialize_handshake(host, port, suffix)
     print "Importing process from kafka client"
 elif client == 'mqtt':
     from mqttclient import *
-    initialize_handshake(host, port)
+    initialize_handshake(host, port, suffix)
     print "Importing process from mqttclient"
 elif client == 'urllib':
     from urllibclient import *
